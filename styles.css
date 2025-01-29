@@ -1,4 +1,30 @@
 body {
     background-color: #F6F5F6;
+    font-family: "DM Sans", serif;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.deep-purple {
+    background-color: #7551DC;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.orange {
+    background-color: #FFCC6A;
+}
+
+.light-orange {
+    background-color: #F9EEE2;
+}
+
+.light-purple {
+    background-color: #DBD1FC;
+}
