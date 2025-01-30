@@ -8,7 +8,7 @@ body {
 
 .grid-container {
     display: grid;
-    width: 1120px;
+    /* width: 1120px; */
     grid-template-columns: repeat(4, 256px);
     grid-template-rows: repeat(4, 256px);
 }
@@ -49,6 +49,11 @@ body {
 }
 
 
+.icon-stars {
+    width: 192px;
+    height: 32px;
+}
+
 .icon-follow {
     width: 316px;
 }
@@ -67,6 +72,7 @@ body {
 
 .icon-audience {
     width: 179px;
+    height: 66px;
 }
 
 .icon-create {
