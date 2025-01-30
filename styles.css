@@ -1,6 +1,16 @@
 body {
     background-color: #F6F5F6;
     font-family: "DM Sans", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    /* width: 1120px; */
+    grid-template-columns: repeat(4, 256px);
+    grid-template-rows: repeat(4, 256px);
 }
 
 .card {
@@ -11,6 +21,8 @@ body {
 
 .deep-purple {
     background-color: #7551DC;
+    color: #ffffff;
+    max-width: 544px;
 }
 
 .white {
@@ -27,4 +39,46 @@ body {
 
 .light-purple {
     background-color: #DBD1FC;
+}
+
+
+
+
+.purple-text {
+    color: #7551DC;
+}
+
+
+.icon-stars {
+    width: 192px;
+    height: 32px;
+}
+
+.icon-follow {
+    width: 316px;
+}
+
+.icon-calendar {
+    width: 208px;
+}
+
+.icon-time-graph {
+    width: 357px;
+}
+
+.icon-follower-graph {
+    width: 227px;
+}
+
+.icon-audience {
+    width: 179px;
+    height: 66px;
+}
+
+.icon-create {
+    width: 190px;
+}
+
+.icon-content {
+    width: 220px;
 }
