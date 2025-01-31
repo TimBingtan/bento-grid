@@ -11,6 +11,11 @@ body {
     /* width: 1120px; */
     grid-template-columns: repeat(4, 256px);
     grid-template-rows: repeat(4, 256px);
+    grid-template-areas:
+        'quicker social social schedule'
+        'quicker social social schedule'
+        'AI manage maintain schedule'
+        'AI audience grow grow';
 }
 
 .card {
@@ -40,9 +45,6 @@ body {
 .light-purple {
     background-color: #DBD1FC;
 }
-
-
-
 
 .purple-text {
     color: #7551DC;
@@ -81,4 +83,36 @@ body {
 
 .icon-content {
     width: 220px;
+}
+
+.card-1 {
+    grid-area: social;
+}
+
+.card-2 {
+    grid-area: manage;
+}
+
+.card-3 {
+    grid-area: maintain;
+}
+
+.card-4 {
+    grid-area: schedule;
+}
+
+.card-5 {
+    grid-area: grow;
+}
+
+.card-6 {
+    grid-area: audience;
+}
+
+.card-7 {
+    grid-area: quicker;
+}
+
+.card-8 {
+    grid-area: AI;
 }
