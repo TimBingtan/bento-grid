@@ -58,18 +58,22 @@ body {
 
 .icon-follow {
     width: 316px;
+    height: 66px;
 }
 
 .icon-calendar {
     width: 208px;
+    height: 157px;
 }
 
 .icon-time-graph {
     width: 357px;
+    height: 319px;
 }
 
 .icon-follower-graph {
     width: 227px;
+    height: 200px;
 }
 
 .icon-audience {
@@ -79,10 +83,12 @@ body {
 
 .icon-create {
     width: 190px;
+    height: 90px;
 }
 
 .icon-content {
     width: 220px;
+    height: 222px;
 }
 
 .card-1 {
