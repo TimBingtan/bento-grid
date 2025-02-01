@@ -18,6 +18,7 @@ body {
         'AI audience grow grow';
 }
 
+/*Card classes*/
 .card {
     display: flex;
     flex-direction: column;
@@ -50,7 +51,59 @@ body {
     color: #7551DC;
 }
 
+.card-1 {
+    grid-area: social;
+}
 
+.card-2 {
+    grid-area: manage;
+}
+
+.card-3 {
+    grid-area: maintain;
+}
+
+.card-4 {
+    grid-area: schedule;
+}
+
+.card-5 {
+    grid-area: grow;
+}
+
+.card-6 {
+    grid-area: audience;
+}
+
+.card-7 {
+    grid-area: quicker;
+}
+
+.card-8 {
+    grid-area: AI;
+}
+
+/*Text classes*/
+.large-bold {
+    font-size: 62px;
+    font-weight: 500px;
+}
+
+.medium-bold {
+    font-size: 40px;
+    font-weight: 500px;
+}
+
+.small-bold {
+    font-size: 32px;
+    font-weight: 500px;
+}
+
+.caption-text {
+    font-size: 18px;
+}
+
+/*Icons*/
 .icon-stars {
     width: 192px;
     height: 32px;
@@ -89,36 +142,4 @@ body {
 .icon-content {
     width: 220px;
     height: 222px;
-}
-
-.card-1 {
-    grid-area: social;
-}
-
-.card-2 {
-    grid-area: manage;
-}
-
-.card-3 {
-    grid-area: maintain;
-}
-
-.card-4 {
-    grid-area: schedule;
-}
-
-.card-5 {
-    grid-area: grow;
-}
-
-.card-6 {
-    grid-area: audience;
-}
-
-.card-7 {
-    grid-area: quicker;
-}
-
-.card-8 {
-    grid-area: AI;
 }
