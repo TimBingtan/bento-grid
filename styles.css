@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-flow: wrap;
+    line-height: 1;
 }
 
 .deep-purple {
@@ -87,16 +88,19 @@ body {
 .large-bold {
     font-size: 62px;
     font-weight: 500px;
+    letter-spacing: -3px;
 }
 
 .medium-bold {
     font-size: 40px;
     font-weight: 500px;
+    letter-spacing: -2px;
 }
 
 .small-bold {
     font-size: 32px;
     font-weight: 500px;
+    letter-spacing: -2px;
 }
 
 .caption-text {
