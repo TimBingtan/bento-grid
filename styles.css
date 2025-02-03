@@ -54,6 +54,11 @@ body {
 
 .card-1 {
     grid-area: social;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-2 {
