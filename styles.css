@@ -20,9 +20,7 @@ body {
 
 /*Card classes*/
 .card {
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
+    display: block;
     line-height: 1;
 }
 
@@ -54,6 +52,9 @@ body {
 
 .card-1 {
     grid-area: social;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .card-2 {
