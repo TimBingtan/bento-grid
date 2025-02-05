@@ -16,6 +16,7 @@ body {
         'quicker social social schedule'
         'AI manage maintain schedule'
         'AI audience grow grow';
+    grid-gap: 32px;
 }
 
 /*Card classes*/
@@ -27,7 +28,7 @@ body {
 .deep-purple {
     background-color: #7551DC;
     color: #ffffff;
-    max-width: 544px;
+    /* max-width: 544px; */
 }
 
 .white {
