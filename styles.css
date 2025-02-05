@@ -8,14 +8,19 @@ body {
 
 .grid-container {
     display: grid;
-    /* width: 1120px; */
-    grid-template-columns: repeat(4, 256px);
-    grid-template-rows: repeat(4, 256px);
+    grid-auto-columns: 256px;
+    grid-auto-rows: 81px;
     grid-template-areas:
-        'quicker social social schedule'
-        'quicker social social schedule'
-        'AI manage maintain schedule'
-        'AI audience grow grow';
+        'box7 box1 box1 box4'
+        'box7 box1 box1 box4'
+        'box7 box1 box1 box4'
+        'box7 box1 box1 box4'
+        'box7 box2 box3 box4'
+        'box8 box2 box3 box4'
+        'box8 box2 box3 box4'
+        'box8 box6 box5 box5'
+        'box8 box6 box5 box5'
+        'box8 box6 box5 box5';
     grid-gap: 32px;
 }
 
@@ -52,38 +57,38 @@ body {
 }
 
 .card-1 {
-    grid-area: social;
+    grid-area: box1;
     text-align: center;
     padding-left: 32px;
     padding-right: 32px;
 }
 
 .card-2 {
-    grid-area: manage;
+    grid-area: box2;
 }
 
 .card-3 {
-    grid-area: maintain;
+    grid-area: box3;
 }
 
 .card-4 {
-    grid-area: schedule;
+    grid-area: box4;
 }
 
 .card-5 {
-    grid-area: grow;
+    grid-area: box5;
 }
 
 .card-6 {
-    grid-area: audience;
+    grid-area: box6;
 }
 
 .card-7 {
-    grid-area: quicker;
+    grid-area: box7;
 }
 
 .card-8 {
-    grid-area: AI;
+    grid-area: box8;
 }
 
 /*Text classes*/
