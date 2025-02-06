@@ -28,6 +28,8 @@ body {
 .card {
     display: block;
     line-height: 1;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .deep-purple {
