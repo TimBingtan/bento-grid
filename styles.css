@@ -9,7 +9,7 @@ body {
 .grid-container {
     display: grid;
     grid-auto-columns: 256px;
-    grid-auto-rows: 81px;
+    grid-auto-rows: 62px;
     grid-template-areas:
         'box7 box1 box1 box4'
         'box7 box1 box1 box4'
@@ -76,8 +76,7 @@ body {
 .card-3 {
     grid-area: box3;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
@@ -97,13 +96,16 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .card-6 {
     grid-area: box6;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
+    padding-left: 20px;
     flex-direction: column;
 }
 
@@ -128,6 +130,13 @@ body {
 }
 
 /*Text classes*/
+.large-text {
+    font-size: 62px;
+    letter-spacing: -3px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 .large-bold {
     font-size: 62px;
     font-weight: 500px;
@@ -148,6 +157,10 @@ body {
 
 .caption-text {
     font-size: 18px;
+}
+
+.contain-text {
+    max-width: 85%;
 }
 
 /*Icons*/
